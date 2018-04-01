@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="099b77d3-3042-401a-a168-dad2ea3e1b0c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    </list>
+    <ignored path="$PROJECT_DIR$/bin/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Startup.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/simpledb/server/Startup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreateStudentDB.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/studentClient/simpledb/CreateStudentDB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1522368930347" expanded="true" signature="317:392" ph="create table... STUDENT" />
+                <marker date="1522368930347" expanded="true" signature="479:536" ph="insert into STUDENT... " />
+                <marker date="1522368930347" expanded="true" signature="565:585" ph="(1, 'joe', 1... " />
+                <marker date="1522368930347" expanded="true" signature="598:618" ph="(2, 'amy', 2... " />
+                <marker date="1522368930347" expanded="true" signature="631:651" ph="(3, 'max', 1... " />
+                <marker date="1522368930347" expanded="true" signature="664:684" ph="(4, 'sue', 2... " />
+                <marker date="1522368930347" expanded="true" signature="697:717" ph="(5, 'bob', 3... " />
+                <marker date="1522368930347" expanded="true" signature="730:750" ph="(6, 'kim', 2... " />
+                <marker date="1522368930347" expanded="true" signature="763:783" ph="(7, 'art', 3... " />
+                <marker date="1522368930347" expanded="true" signature="796:816" ph="(8, 'pat', 2... " />
+                <marker date="1522368930347" expanded="true" signature="829:849" ph="(9, 'lee', 1... " />
+                <marker date="1522368930347" expanded="true" signature="996:1040" ph="create table... DEPT" />
+                <marker date="1522368930347" expanded="true" signature="1124:1159" ph="insert into DEPT... " />
+                <marker date="1522368930347" expanded="true" signature="1188:1203" ph="(10, 'compsc... " />
+                <marker date="1522368930347" expanded="true" signature="1241:1254" ph="(30, 'drama'... " />
+                <marker date="1522368930347" expanded="true" signature="1398:1457" ph="create table... COURSE" />
+                <marker date="1522368930347" expanded="true" signature="1543:1588" ph="insert into COURSE... " />
+                <marker date="1522368930347" expanded="true" signature="1619:1641" ph="(12, 'db sys... " />
+                <marker date="1522368930347" expanded="true" signature="1656:1677" ph="(22, 'compil... " />
+                <marker date="1522368930347" expanded="true" signature="1692:1712" ph="(32, 'calcul... " />
+                <marker date="1522368930347" expanded="true" signature="1727:1746" ph="(42, 'algebr... " />
+                <marker date="1522368930347" expanded="true" signature="1761:1779" ph="(52, 'acting... " />
+                <marker date="1522368930347" expanded="true" signature="1794:1815" ph="(62, 'elocut... " />
+                <marker date="1522368930347" expanded="true" signature="1965:2045" ph="create table... SECTION" />
+                <marker date="1522368930347" expanded="true" signature="2132:2195" ph="insert into SECTION... " />
+                <marker date="1522368930347" expanded="true" signature="2224:2248" ph="(13, 12, 'tu... " />
+                <marker date="1522368930347" expanded="true" signature="2261:2285" ph="(23, 12, 'tu... " />
+                <marker date="1522368930347" expanded="true" signature="2298:2322" ph="(33, 32, 'ne... " />
+                <marker date="1522368930347" expanded="true" signature="2335:2361" ph="(43, 32, 'ei... " />
+                <marker date="1522368930347" expanded="true" signature="2374:2398" ph="(53, 62, 'br... " />
+                <marker date="1522368930347" expanded="true" signature="2545:2621" ph="create table... ENROLL" />
+                <marker date="1522368930347" expanded="true" signature="2707:2766" ph="insert into ENROLL... " />
+                <marker date="1522368930347" expanded="true" signature="2797:2813" ph="(14, 1, 13, " />
+                <marker date="1522368930347" expanded="true" signature="2828:2845" ph="(24, 1, 43, " />
+                <marker date="1522368930347" expanded="true" signature="2860:2877" ph="(34, 2, 43, " />
+                <marker date="1522368930347" expanded="true" signature="2892:2909" ph="(44, 4, 33, " />
+                <marker date="1522368930347" expanded="true" signature="2924:2941" ph="(54, 4, 53, " />
+                <marker date="1522368930347" expanded="true" signature="2956:2973" ph="(64, 6, 53, " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreateFinalreport.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/studentClient/simpledb/CreateFinalreport.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1522368930351" expanded="true" signature="367:423" ph="create table... Grade" />
+                <marker date="1522368930351" expanded="true" signature="535:576" ph="insert into Grade... " />
+                <marker date="1522368930351" expanded="true" signature="615:628" ph="(1, 'joe', 3... " />
+                <marker date="1522368930351" expanded="true" signature="652:665" ph="(2, 'amy', 3... " />
+                <marker date="1522368930351" expanded="true" signature="689:702" ph="(3, 'max', 4... " />
+                <marker date="1522368930351" expanded="true" signature="726:739" ph="(4, 'sue', 2... " />
+                <marker date="1522368930351" expanded="true" signature="763:776" ph="(5, 'bob', 3... " />
+                <marker date="1522368930351" expanded="true" signature="800:813" ph="(6, 'kim', 3... " />
+                <marker date="1522368930351" expanded="true" signature="837:850" ph="(7, 'art', 3... " />
+                <marker date="1522368930351" expanded="true" signature="874:887" ph="(8, 'pat', 3... " />
+                <marker date="1522368930351" expanded="true" signature="911:924" ph="(9, 'lee', 2... " />
+                <marker date="1522368930351" expanded="true" signature="923:924" ph="(9, 'lee', 1... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Buffer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/simpledb/buffer/Buffer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2270">
+              <caret line="187" column="15" lean-forward="true" selection-start-line="187" selection-start-column="15" selection-end-line="187" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicBufferMgr.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/simpledb/buffer/BasicBufferMgr.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="105" column="32" lean-forward="true" selection-start-line="105" selection-start-column="32" selection-end-line="105" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BufferMgr.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/simpledb/buffer/BufferMgr.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="55" column="31" lean-forward="true" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/studentClient/simpledb/CreateStudentDB.java" />
+        <option value="$PROJECT_DIR$/studentClient/simpledb/CreateFinalreport.java" />
+        <option value="$PROJECT_DIR$/src/simpledb/buffer/Buffer.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1440" />
+    <option name="height" value="878" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id>JavaFX</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SimpleDB_2.10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleDB_2.10" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleDB_2.10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleDB_2.10" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleDB_2.10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleDB_2.10" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="simpledb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleDB_2.10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleDB_2.10" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="simpledb" type="462c0819:PsiDirectoryNode" />
+              <item name="buffer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleDB_2.10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleDB_2.10" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="simpledb" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleDB_2.10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleDB_2.10" type="462c0819:PsiDirectoryNode" />
+              <item name="studentClient" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleDB_2.10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleDB_2.10" type="462c0819:PsiDirectoryNode" />
+              <item name="studentClient" type="462c0819:PsiDirectoryNode" />
+              <item name="simpledb" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.CreateStudentDB">
+    <configuration name="CreateFinalreport" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="CreateFinalreport" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="simpledb2.10" />
+      <envs />
+    </configuration>
+    <configuration name="CreateStudentDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="CreateStudentDB" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="simpledb2.10" />
+      <envs />
+    </configuration>
+    <configuration name="FindMajors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="FindMajors" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="simpledb2.10" />
+      <envs />
+    </configuration>
+    <configuration name="Startup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="simpledb.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="simpledb.server.Startup" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="CS4432" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="simpledb2.10" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Application.Startup" />
+      <item index="1" class="java.lang.String" itemvalue="Application.CreateStudentDB" />
+      <item index="2" class="java.lang.String" itemvalue="Application.CreateFinalreport" />
+      <item index="3" class="java.lang.String" itemvalue="Application.FindMajors" />
+    </list>
+    <recent_temporary>
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.CreateStudentDB" />
+        <item index="1" class="java.lang.String" itemvalue="Application.CreateFinalreport" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Startup" />
+        <item index="3" class="java.lang.String" itemvalue="Application.FindMajors" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="099b77d3-3042-401a-a168-dad2ea3e1b0c" name="Default" comment="" />
+      <created>1522365794145</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1522365794145</updated>
+      <workItem from="1522365799512" duration="8956000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="8956000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1440" height="878" extended-state="0" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5028612" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32950193" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/studentClient/simpledb/ChangeMajor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-20">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <marker date="1314034605000" expanded="true" signature="315:383" ph="update STUDE... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studentClient/simpledb/DeleteStudents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studentClient/simpledb/SQLInterpreter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-965">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studentClient/simpledb/FindMajors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="37" />
+          <folding>
+            <marker date="1175970554000" expanded="true" signature="513:659" ph="select sname... student" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simpledb/buffer/BasicBufferMgr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="105" column="32" lean-forward="true" selection-start-line="105" selection-start-column="32" selection-end-line="105" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simpledb/server/Startup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studentClient/simpledb/CreateFinalreport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1522368930351" expanded="true" signature="367:423" ph="create table... Grade" />
+            <marker date="1522368930351" expanded="true" signature="535:576" ph="insert into Grade... " />
+            <marker date="1522368930351" expanded="true" signature="615:628" ph="(1, 'joe', 3... " />
+            <marker date="1522368930351" expanded="true" signature="652:665" ph="(2, 'amy', 3... " />
+            <marker date="1522368930351" expanded="true" signature="689:702" ph="(3, 'max', 4... " />
+            <marker date="1522368930351" expanded="true" signature="726:739" ph="(4, 'sue', 2... " />
+            <marker date="1522368930351" expanded="true" signature="763:776" ph="(5, 'bob', 3... " />
+            <marker date="1522368930351" expanded="true" signature="800:813" ph="(6, 'kim', 3... " />
+            <marker date="1522368930351" expanded="true" signature="837:850" ph="(7, 'art', 3... " />
+            <marker date="1522368930351" expanded="true" signature="874:887" ph="(8, 'pat', 3... " />
+            <marker date="1522368930351" expanded="true" signature="911:924" ph="(9, 'lee', 2... " />
+            <marker date="1522368930351" expanded="true" signature="923:924" ph="(9, 'lee', 1... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simpledb/buffer/Buffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2270">
+          <caret line="187" column="15" lean-forward="true" selection-start-line="187" selection-start-column="15" selection-end-line="187" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simpledb/buffer/BufferMgr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="55" column="31" lean-forward="true" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studentClient/simpledb/CreateStudentDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1522368930347" expanded="true" signature="317:392" ph="create table... STUDENT" />
+            <marker date="1522368930347" expanded="true" signature="479:536" ph="insert into STUDENT... " />
+            <marker date="1522368930347" expanded="true" signature="565:585" ph="(1, 'joe', 1... " />
+            <marker date="1522368930347" expanded="true" signature="598:618" ph="(2, 'amy', 2... " />
+            <marker date="1522368930347" expanded="true" signature="631:651" ph="(3, 'max', 1... " />
+            <marker date="1522368930347" expanded="true" signature="664:684" ph="(4, 'sue', 2... " />
+            <marker date="1522368930347" expanded="true" signature="697:717" ph="(5, 'bob', 3... " />
+            <marker date="1522368930347" expanded="true" signature="730:750" ph="(6, 'kim', 2... " />
+            <marker date="1522368930347" expanded="true" signature="763:783" ph="(7, 'art', 3... " />
+            <marker date="1522368930347" expanded="true" signature="796:816" ph="(8, 'pat', 2... " />
+            <marker date="1522368930347" expanded="true" signature="829:849" ph="(9, 'lee', 1... " />
+            <marker date="1522368930347" expanded="true" signature="996:1040" ph="create table... DEPT" />
+            <marker date="1522368930347" expanded="true" signature="1124:1159" ph="insert into DEPT... " />
+            <marker date="1522368930347" expanded="true" signature="1188:1203" ph="(10, 'compsc... " />
+            <marker date="1522368930347" expanded="true" signature="1241:1254" ph="(30, 'drama'... " />
+            <marker date="1522368930347" expanded="true" signature="1398:1457" ph="create table... COURSE" />
+            <marker date="1522368930347" expanded="true" signature="1543:1588" ph="insert into COURSE... " />
+            <marker date="1522368930347" expanded="true" signature="1619:1641" ph="(12, 'db sys... " />
+            <marker date="1522368930347" expanded="true" signature="1656:1677" ph="(22, 'compil... " />
+            <marker date="1522368930347" expanded="true" signature="1692:1712" ph="(32, 'calcul... " />
+            <marker date="1522368930347" expanded="true" signature="1727:1746" ph="(42, 'algebr... " />
+            <marker date="1522368930347" expanded="true" signature="1761:1779" ph="(52, 'acting... " />
+            <marker date="1522368930347" expanded="true" signature="1794:1815" ph="(62, 'elocut... " />
+            <marker date="1522368930347" expanded="true" signature="1965:2045" ph="create table... SECTION" />
+            <marker date="1522368930347" expanded="true" signature="2132:2195" ph="insert into SECTION... " />
+            <marker date="1522368930347" expanded="true" signature="2224:2248" ph="(13, 12, 'tu... " />
+            <marker date="1522368930347" expanded="true" signature="2261:2285" ph="(23, 12, 'tu... " />
+            <marker date="1522368930347" expanded="true" signature="2298:2322" ph="(33, 32, 'ne... " />
+            <marker date="1522368930347" expanded="true" signature="2335:2361" ph="(43, 32, 'ei... " />
+            <marker date="1522368930347" expanded="true" signature="2374:2398" ph="(53, 62, 'br... " />
+            <marker date="1522368930347" expanded="true" signature="2545:2621" ph="create table... ENROLL" />
+            <marker date="1522368930347" expanded="true" signature="2707:2766" ph="insert into ENROLL... " />
+            <marker date="1522368930347" expanded="true" signature="2797:2813" ph="(14, 1, 13, " />
+            <marker date="1522368930347" expanded="true" signature="2828:2845" ph="(24, 1, 43, " />
+            <marker date="1522368930347" expanded="true" signature="2860:2877" ph="(34, 2, 43, " />
+            <marker date="1522368930347" expanded="true" signature="2892:2909" ph="(44, 4, 33, " />
+            <marker date="1522368930347" expanded="true" signature="2924:2941" ph="(54, 4, 53, " />
+            <marker date="1522368930347" expanded="true" signature="2956:2973" ph="(64, 6, 53, " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
