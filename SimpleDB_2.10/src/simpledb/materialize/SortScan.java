@@ -17,6 +17,7 @@ public class SortScan implements Scan {
    private RecordComparator comp;
    private boolean hasmore1, hasmore2=false;
    private List<RID> savedposition;
+
    
    /**
     * Creates a sort scan, given a list of 1 or 2 runs.

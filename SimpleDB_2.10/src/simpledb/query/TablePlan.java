@@ -68,4 +68,9 @@ public class TablePlan implements Plan {
    public Schema schema() {
       return ti.schema();
    }
+
+   //CS4432-Project2:
+   public TableInfo gettblinfo(){
+      return this.ti;
+   }
 }

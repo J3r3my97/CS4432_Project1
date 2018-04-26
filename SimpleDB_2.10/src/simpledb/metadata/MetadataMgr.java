@@ -32,9 +32,11 @@ public class MetadataMgr {
    public String getViewDef(String viewname, Transaction tx) {
       return viewmgr.getViewDef(viewname, tx);
    }
-   
-   public void createIndex(String idxname, String tblname, String fldname, Transaction tx) {
-      idxmgr.createIndex(idxname, tblname, fldname, tx);
+
+
+   //CS4432-Project2:
+   public void createIndex(String idxtype, String idxname, String tblname, String fldname, Transaction tx) {
+      idxmgr.createIndex(idxtype, idxname, tblname, fldname, tx);
    }
    
    public Map<String,IndexInfo> getIndexInfo(String tblname, Transaction tx) {
@@ -43,5 +45,10 @@ public class MetadataMgr {
    
    public StatInfo getStatInfo(String tblname, TableInfo ti, Transaction tx) {
       return statmgr.getStatInfo(tblname, ti, tx);
+   }
+
+   //CS4432-Project2:
+   public void updateSortedTable(TableInfo ti, Transaction tx) {
+      tblmgr.updateTableInfo(ti, tx);
    }
 }

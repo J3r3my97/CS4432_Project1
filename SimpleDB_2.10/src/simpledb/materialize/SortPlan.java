@@ -36,12 +36,35 @@ public class SortPlan implements Plan {
     * @see simpledb.query.Plan#open()
     */
    public Scan open() {
-      Scan src = p.open();
+
+      //CS4432-Project2:
+      TablePlan tp;
+      boolean srtflg = false;
+      if(p instanceof TablePlan){
+         tp = (TablePlan) p;
+         srtflg = tp.gettblinfo().srtflgCheck();
+      }
+
+      List<TempTable> runs = null;
+      if(!srtflg){
+         Scan src = p.open();
+         runs = splitIntoRuns(src);
+         src.close();
+         while (runs.size() > 2)
+            runs = doAMergeIteration(runs);
+      }
+
+      //TODO: SortScanExtend
+      return new SortScanExtend(runs, comp, (TablePlan) this.p, tx);
+
+
+      //original code
+/*      Scan src = p.open();
       List<TempTable> runs = splitIntoRuns(src);
       src.close();
       while (runs.size() > 2)
          runs = doAMergeIteration(runs);
-      return new SortScan(runs, comp);
+      return new SortScan(runs, comp);*/
    }
    
    /**

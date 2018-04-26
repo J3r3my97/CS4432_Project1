@@ -83,7 +83,6 @@ public class CreateStudentDB {
 				stmt.executeUpdate(s + enrollvals[i]);
 			System.out.println("ENROLL records inserted.");
 
-
 		}
 		catch(SQLException e) {
 			e.printStackTrace();

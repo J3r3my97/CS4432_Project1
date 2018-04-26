@@ -7,6 +7,7 @@ import simpledb.log.LogMgr;
 import simpledb.metadata.MetadataMgr;
 import simpledb.planner.*;
 import simpledb.opt.HeuristicQueryPlanner;
+import simpledb.opt.ExploitSortQueryPlanner;
 import simpledb.index.planner.IndexUpdatePlanner;
 
 /**
@@ -100,7 +101,15 @@ public class SimpleDB {
     * To change how the planner works, modify this method.
     * @return the system's planner for SQL commands
     */public static Planner planner() {
-      QueryPlanner  qplanner = new BasicQueryPlanner();
+      QueryPlanner  qplanner = new HeuristicQueryPlanner();
+      UpdatePlanner uplanner = new IndexUpdatePlanner();
+      return new Planner(qplanner, uplanner);
+   }
+
+   public static Planner ExploitSortQueryPlanner() {
+      // CS4432-Project2:
+      QueryPlanner qplanner = new ExploitSortQueryPlanner();
+      //QueryPlanner qplanner = new BasicQueryPlanner();
       UpdatePlanner uplanner = new BasicUpdatePlanner();
       return new Planner(qplanner, uplanner);
    }

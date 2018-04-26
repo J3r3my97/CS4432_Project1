@@ -187,9 +187,4 @@ public class Buffer {
       blk = contents.append(filename);
       pins = 0;
    }
-
-   /** make a list that keep all the empty frame number
-    *
-    */
-
 }

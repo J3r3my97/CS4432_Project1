@@ -109,4 +109,26 @@ public class TableMgr {
       fcatfile.close();
       return new TableInfo(tblname, sch, offsets, reclen);
    }
+
+
+   //CS4432-Project2:
+   public void updateTableInfo(TableInfo ti, Transaction tx) {
+      String tblname = ti.getTblname();
+      int sorted = 0;
+      //0 means not sorted
+      RecordFile tcatfile = new RecordFile(tcatInfo, tx);
+
+      // If the table is sorted, set sorted to true (i.e 1);
+      if (ti.srtflgCheck()) {
+         sorted = 1;
+      }
+
+      while (tcatfile.next()) {
+         if (tcatfile.getString("tblname").equals(tblname)) {
+            tcatfile.setInt("isSorted", sorted);
+            break;
+         }
+      }
+      tcatfile.close();
+   }
 }

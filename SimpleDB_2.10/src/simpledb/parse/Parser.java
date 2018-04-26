@@ -4,6 +4,9 @@ import java.util.*;
 import simpledb.query.*;
 import simpledb.record.Schema;
 
+//CS4432-Project2:
+import simpledb.indexType;
+
 /**
  * The SimpleDB parser.
  * @author Edward Sciore
@@ -232,6 +235,9 @@ public class Parser {
 //  Method for parsing create index commands
    
    public CreateIndexData createIndex() {
+      //CS4432-Project2:
+      String idxtype = lex.eatId();
+
       lex.eatKeyword("index");
       String idxname = lex.eatId();
       lex.eatKeyword("on");
@@ -239,7 +245,10 @@ public class Parser {
       lex.eatDelim('(');
       String fldname = field();
       lex.eatDelim(')');
-      return new CreateIndexData(idxname, tblname, fldname);
+
+      //CS4432-Project2:
+      System.out.println("Index Type:" + idxtype + ", Index Name:" + idxname);
+      return new CreateIndexData(idxtype, idxname, tblname, fldname);
    }
 }
 

@@ -23,6 +23,9 @@ public class IndexMgr {
    public IndexMgr(boolean isnew, TableMgr tblmgr, Transaction tx) {
       if (isnew) {
          Schema sch = new Schema();
+         //CS4432-Project2:
+         sch.addStringField("indextype", MAX_NAME);
+
          sch.addStringField("indexname", MAX_NAME);
          sch.addStringField("tablename", MAX_NAME);
          sch.addStringField("fieldname", MAX_NAME);
@@ -40,9 +43,14 @@ public class IndexMgr {
     * @param fldname the name of the indexed field
     * @param tx the calling transaction
     */
-   public void createIndex(String idxname, String tblname, String fldname, Transaction tx) {
+   //CS4432-Project2:
+   public void createIndex(String idxtype, String idxname, String tblname, String fldname, Transaction tx) {
       RecordFile rf = new RecordFile(ti, tx);
       rf.insert();
+
+      //CS4432-Project2:
+      rf.setString("indextype", idxtype);
+
       rf.setString("indexname", idxname);
       rf.setString("tablename", tblname);
       rf.setString("fieldname", fldname);
@@ -61,9 +69,14 @@ public class IndexMgr {
       RecordFile rf = new RecordFile(ti, tx);
       while (rf.next())
          if (rf.getString("tablename").equals(tblname)) {
+
+         //CS4432-Project2:
+         String idxtype = rf.getString("indextype");
          String idxname = rf.getString("indexname");
          String fldname = rf.getString("fieldname");
-         IndexInfo ii = new IndexInfo(idxname, tblname, fldname, tx);
+
+         //CS4432-Project2:
+         IndexInfo ii = new IndexInfo(idxtype, idxname, tblname, fldname, tx);
          result.put(fldname, ii);
       }
       rf.close();

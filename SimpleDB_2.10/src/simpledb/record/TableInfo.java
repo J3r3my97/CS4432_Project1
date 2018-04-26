@@ -13,6 +13,10 @@ public class TableInfo {
    private Map<String,Integer> offsets;
    private int recordlen;
    private String tblname;
+
+   //CS4432-Project2:
+   private boolean srtflg;
+   //0 means not sorted; 1 means sorted
    
    /**
     * Creates a TableInfo object, given a table name
@@ -32,6 +36,9 @@ public class TableInfo {
          pos += lengthInBytes(fldname);
       }
       recordlen = pos;
+
+      //CS4432-Project2:
+      srtflg = false;
    }
    
    /**
@@ -49,6 +56,22 @@ public class TableInfo {
       this.schema    = schema;
       this.offsets   = offsets;
       this.recordlen = recordlen;
+
+      //CS4432-Project2:
+      this.srtflg = false;
+   }
+
+   //CS4432-Project2:
+   public boolean srtflgCheck(){
+      return srtflg;
+   }
+
+   public void setsrtflg(boolean srt){
+      srtflg = srt;
+   }
+
+   public String getTblname(){
+      return this.tblname;
    }
    
    /**
